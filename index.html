@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website by Saurabh Belwal</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/08a75b3b31.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi I'm <span>Saurabh</span><br>Belwal From India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!---------------------about section ----------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>kdfjklsjidihff dkfjklj klkdjk kjkj djkljg nko djiodhfio djoj oifdjiosj jfgiooj fjiof oifhgiojd jg
+                        soiojoiojf dsojiodjfg oidjoiih ighjjoiugoifjohog oig ios gidiofjoifhoidf g ggj fdsihio ohoigs
+                        ieijf
+                        fhdiuhf dsoj foi haoiodsiohiof dsfjijf dugoi goioj g oijh ihioi iu</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Devlopement</span><br>Developing Websites</li>
+                            <li><span>App Devlopement</span><br>Developing Web Applications</li>
+                            <li><span>Designing </span><br>Structres of Web/apps </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>October2021-april2022</span><br>Final quality tester in yazaki india pvt. Ltd.
+                                Pantnager(U.S.nagar).
+                            </li>
+                            <li><span>March2021-September2021</span><br>production department in a company in pantnagar.
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>june2022-august2022</span><br>HTML,Css and javascript Training at NIIT haldwani.
+                            </li>
+                            <li><span>2017-2020</span><br>Diploma In Computer Science and Engineering From Govt.
+                                Polytechnic Dwarahat(Almora).</li>
+                            <li><span>2016-2017</span><br>Diploma in Advance Computer Software from Lal Bahadur Shashtri
+                                Training Institute Bhimtal. </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------services---------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Devlopement</h2>
+                    <p>klj klkdjk kjkj djkljg nko djiodhfio djoj oifdjiosj jfgiooj fjiof oifhgiojd jg
+                        soiojoiojf dsojiodjfg oidjoiih ighjjoiugoifjohog oig i</p>
+                    <a href="">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Development</h2>
+                    <p>klj klkdjk kjkj djkljg nko djiodhfio djoj oifdjiosj jfgiooj fjiof oifhgiojd jg
+                        soiojoiojf dsojiodjfg oidjoiih ighjjoiugoifjohog oig i</p>
+                    <a href="">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-hands"></i>
+                    <h2>Designing</h2>
+                    <p>klj klkdjk kjkj djkljg nko djiodhfio djoj oifdjiosj jfgiooj fjiof oifhgiojd jg
+                        soiojoiojf dsojiodjfg oidjoiih ighjjoiugoifjohog oig i</p>
+                    <a href="">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------portfolio--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>social media app</h3>
+                        <p>the app coonect to the world.</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>website Devlopement</h3>
+                        <p>creating attractive website</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>designing new </h3>
+                        <p>designing new website and creating them attractive and working</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">see more</a>
+        </div>
+    </div>
+    <!-- ------contact-------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contactleft">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                    <p><i class="fa-solid fa-phone"></i>0123456789</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""> <i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contactright">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @saurabh.made by saurabh Belwal</p>
+        </div>
+    </div>
+    <!--  -->
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
